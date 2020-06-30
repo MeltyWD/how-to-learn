@@ -6,3 +6,11 @@
   text-decoration: none;
   color: white;
 }
+.footer__column-link {
+  transition: opacity 0.4s ease-in;
+}
+
+.footer__column-link:hover {
+  opacity: .4;
+  transition: 0.2s ease-out;
+}

@@ -1,0 +1,13 @@
+.resources__link {
+  border-radius: 12px;
+}
+
+.resources__link:hover {
+  opacity: .4;
+  /*бледные лого делать еще прозрачнее как-то не красиво выглядит*/
+  box-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.2s ease-out;
+}
+.resources__link:not(hover) {
+  transition: 0.4s ease-in;
+}

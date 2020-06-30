@@ -4,6 +4,8 @@
   bottom: -40px;
   z-index: 1;
   border-style: none;
+  width: 515px;
+  height: 316px;
 }
 
 .video__iframe:first-child {
